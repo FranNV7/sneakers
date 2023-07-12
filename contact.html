@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Contacto | Francesco Sneakers</title>
+    <meta name="description" content="Francesco Sneakers">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="robots" content="all,follow">
+    <!-- Bootstrap CSS-->
+    <link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.min.css">
+    <!-- Google fonts-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,700">
+    <!-- Fuentes de iconos-->
+    <link rel="stylesheet" href="css/pe-icon-7-stroke.css">
+    <!-- Lightbox CSS-->
+    <link rel="stylesheet" href="vendor/lightbox2/css/lightbox.min.css">
+    <!-- Leaflet CSS-->
+    <link rel="stylesheet" href="vendor/leaflet/leaflet.css">
+    <!-- hoja de estilo del tema-->
+    <link rel="stylesheet" href="css/style.default.css" id="theme-stylesheet">
+    <!-- Hoja de estilo-->
+    <link rel="stylesheet" href="css/custom.css">
+    <!-- Favicon-->
+    <link rel="shortcut icon" href="img/favicon.png">
+  </head>
+  <body>
+    <!-- navbar-->
+    <header class="header">
+      <nav class="navbar navbar-expand-lg py-lg-0">
+        <div class="container"><a href="index.html" class="navbar-brand text-uppercase font-weight-bold">Fran.</a>
+          <button type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler navbar-toggler-right small"><span class="text-uppercase mr-2">Menu</span><i class="fas fa-bars"></i></button>
+          <div id="navbarSupportedContent" class="collapse navbar-collapse">
+            <ul class="navbar-nav ml-auto d-lg-flex align-items-lg-center">
+              <li class="nav-item"><a href="index.html" class="nav-link font-weight-bold text-uppercase px-lg-3 py-lg-4">Home </a>
+              </li>
+              <li class="nav-item"><a href="text.html" class="nav-link font-weight-bold text-uppercase px-lg-3 py-lg-4">Pagina Vacia </a>
+              </li>
+              <li class="nav-item dropdown"><a id="navbarDropdownMenuLink" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="nav-link font-weight-bold text-uppercase px-lg-3 py-lg-4 dropdown-toggle">Categorias</a>
+                <div aria-labelledby="navbarDropdownMenuLink" class="dropdown-menu mt-0">
+                  <a href="#" class="dropdown-item small text-uppercase">Dropdown 1</a>
+                  <a href="#" class="dropdown-item small text-uppercase">Dropdown 2</a>
+                  <a href="#" class="dropdown-item small text-uppercase">Dropdown 3</a>
+                  <a href="#" class="dropdown-item small text-uppercase">Dropdown 4</a>
+                </div>
+              </li>
+              <li class="nav-item"><a href="contact.html" class="nav-link font-weight-bold text-uppercase px-lg-3 py-lg-4 active">Contact </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <section class="py-5 bg-cover bg-gray">
+      <div class="container py-5">
+        <div aria-label="breadcrumb" class="nav">
+          <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="./">Home</a></li>
+            <li aria-current="page" class="breadcrumb-item active">Contacto</li>
+          </ol>
+        </div>
+        <h1 class="lined">Contacto</h1>
+        <p class="lead my-4">ponete en contacto para recibir 2 plateas en la cancha de boca</p>
+      </div>
+    </section>
+    <section class="py-5">
+      <div class="container py-5">
+        <div class="row">
+          <div class="col-lg-4">
+            <div class="row">
+              <div class="col-lg-12 col-md-6 mb-4">
+                <div class="icon mb-4"><i class="pe-7s-map-2"></i></div>
+                <h5 class="lined mb-4">DIRECCIÓN</h5>
+                <p class="text-muted mb-0 text-small">La boca</p>
+                <p class="text-muted mb-0 text-small">Avenida siempre viva 123</p>
+                <p class="text-muted mb-0 text-small">La boca, <strong>Argentina </strong></p>
+              </div>
+              <div class="col-lg-12 col-md-6 mb-4">
+                <div class="icon mb-4"><i class="pe-7s-phone"></i></div>
+                <h5 class="lined mb-4">Centro de llamadas</h5>
+                <p class="text-muted mb-3 text-small">nuestro numero</p>
+                <p class="text-muted font-weight-bold">+54 12 1212 1212</p>
+              </div>
+              <div class="col-lg-12 col-md-6 mb-4">
+                <div class="icon mb-4"><i class="pe-7s-mail-open"></i></div>
+                <h5 class="lined mb-4">Soporte electrónico</h5>
+                <p class="text-muted mb-3 text-small">No dude en escribirnos un correo electrónico o utilizar nuestro sistema electrónico de emisión de billetes.</p>
+                <ul>
+                  <li><a href="#" class="font-weight-bold text-small">info@francesco.com</a></li>
+                  <li><a href="#" class="font-weight-bold text-small">Ticketio - nuestra plataforma de soporte de venta de entradas</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-7 ml-auto">
+            <div class="col-lg-12 col-md-6 mb-4">
+              <div class="icon mb-4"><i class="pe-7s-pen"></i></div>
+              <h5 class="lined mb-4">Formulario de contacto</h5>
+              <p class="text-muted text-small">HAAAAAAAGAAAN CASO</p>
+              <form id="contact-form" method="post" action="contact.php" class="contact-form form">
+                <div class="row">
+                  <div class="form-group col-lg-6">
+                    <label for="name" class="font-weight-normal">Nombre</label>
+                    <input id="name" type="text" name="name" class="form-control">
+                  </div>
+                  <div class="form-group col-lg-6">
+                    <label for="surname" class="font-weight-normal">Apellido </label>
+                    <input id="surname" type="text" name="surname" class="form-control">
+                  </div>
+                  <div class="form-group col-lg-6">
+                    <label for="email" class="font-weight-normal">Email</label>
+                    <input id="email" type="email" name="email" class="form-control">
+                  </div>
+                  <div class="form-group col-lg-6">
+                    <label for="subject" class="font-weight-normal">Asunto</label>
+                    <input id="subject" type="text" name="subject" class="form-control">
+                  </div>
+                  <div class="form-group col-lg-12">
+                    <label for="message" class="font-weight-normal">Mensaje</label>
+                    <textarea id="message" rows="4" name="message" class="form-control"></textarea>
+                  </div>
+                  <div class="form-group col-lg-12">
+                    <button type="submit" class="btn btn-outline-primary"> <i class="far fa-envelope mr-2"> </i>Enviar Mensaje</button>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer style="background: #eee;" class="pt-5">
+      <div class="container py-5">
+        <div class="row">
+          <div class="col-lg-8 col-md-6 mb-4">
+            <h5 class="lined lined-dark mb-3">Sobre Francesco Sneakers</h5>
+            <p class="text-muted text-small">comprenme y asi podre dominar el mundo</p>
+            <p class="text-muted text-small">y asi poder ir a ver a BOCCCAAA</p>
+          </div>
+          <div class="col-lg-4 col-md-6 mb-4">
+            <h5 class="lined lined-dark mb-3">Nuestras oficinas</h5>
+            <h6>LA BOCA</h6>
+            <p class="text-muted mb-0 text-small">casa de martin palermo</p>
+            <p class="text-muted mb-0 text-small">junto al riachuelo</p>
+            <p class="text-muted mb-4 text-small">telefono + 54 12 1212 1212 </p>
+          </div>
+          <div class="col-lg-4 col-md-6 mb-4">
+            <h5 class="lined lined-dark mb-3">se vienen cositas</h5>
+            <ul class="list-unstyled">
+              <li><a href="#" class="footer-link text-small">nuevos diseños</a></li>
+              <li><a href="#" class="footer-link text-small">colaboracion con nike</a></li>
+              <li><a href="#" class="footer-link text-small">Canal de youtube</a></li>
+              <li><a href="#" class="footer-link text-small">Dolares</a></li>
+            </ul>
+          </div>
+          <div class="col-lg-4 col-md-6 mb-4">
+            <h5 class="lined lined-dark mb-3">Nuestras Redes</h5>
+            <ul class="list-inline">
+              <li class="list-inline-item"><a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a></li>
+              <li class="list-inline-item"><a href="#" class="social-link"><i class="fab fa-google-plus-g"></i></a></li>
+              <li class="list-inline-item"><a href="#" class="social-link"><i class="fab fa-twitter"></i></a></li>
+              <li class="list-inline-item"><a href="#" class="social-link"><i class="fas fa-envelope"></i></a></li>
+            </ul>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <h5 class="lined lined-dark mb-3">Enterate de lo nuevo pa</h5>
+            <p class="text-muted mb-4 text-small">pone tu mail y te doxeamos.
+              <form action="#">
+                <div class="input-group mb-3">
+                  <input type="text" placeholder="pone mail" aria-label="pone mail" aria-describedby="basic-addon2" class="form-control">
+                  <div class="input-group-append">
+                    <button id="basic-addon2" type="submit" class="input-group-text"><i class="fas fa-paper-plane"></i></button>
+                  </div>
+                </div>
+              </form>
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="bg-dark py-4">    
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6 text-center text-lg-left mb-1 mb-lg-0">
+              <p class="small text-gray mb-0">©2013 Hagan caso</p>
+            </div>
+            <div class="col-lg-6 text-center text-lg-right">
+              <p class="small text-gray mb-0">Diseñado por <a href="#" class="text-gray">FrancescoSneakers.com</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- Archivos JavaScript-->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="vendor/lightbox2/js/lightbox.min.js"></script>
+    <script src="vendor/leaflet/leaflet.js"></script>
+    <!-- FontAwesome CSS: se carga como último, por lo que no bloquea la representación-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+  </body>
+</html>
